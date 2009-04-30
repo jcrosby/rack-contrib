@@ -15,6 +15,7 @@ module Rack
   autoload :ETag,                       "rack/contrib/etag"
   autoload :ExpectationCascade,         "rack/contrib/expectation_cascade"
   autoload :GarbageCollector,           "rack/contrib/garbagecollector"
+  autoload :HostMeta,                   "rack/contrib/host_meta"
   autoload :JSONP,                      "rack/contrib/jsonp"
   autoload :LighttpdScriptNameFix,      "rack/contrib/lighttpd_script_name_fix"
   autoload :Locale,                     "rack/contrib/locale"
@@ -33,5 +34,6 @@ module Rack
   autoload :NotFound,                   "rack/contrib/not_found"
   autoload :ResponseCache,              "rack/contrib/response_cache"
   autoload :RelativeRedirect,           "rack/contrib/relative_redirect"
-  autoload :StaticCache,           	"rack/contrib/static_cache"
+  autoload :StaticCache,                "rack/contrib/static_cache"
+
 end
